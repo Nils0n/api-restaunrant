@@ -38,7 +38,7 @@ router.post('/orders', (req, res) => {
 });
 
 //Change order status
-router.patch('/orders/:orderId', (req, res) => {
+router.patch('/orders/:orderId                                                           ', (req, res) => {
   res.send('ok');
 });
 
